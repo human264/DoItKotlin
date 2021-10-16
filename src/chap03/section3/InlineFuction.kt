@@ -5,6 +5,7 @@ package chap03.section3
 fun main() {
     shortFunc(3) { println("First Call: $it")}
     shortFunc(5) { println("Second Call: $it")}
+ 
 }
 
 inline fun shortFunc(a:Int, out: (Int) -> Unit) {

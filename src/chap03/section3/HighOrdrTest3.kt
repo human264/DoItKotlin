@@ -8,6 +8,12 @@ fun main() {
 
     val new = out
     new()
+    println(dd( out))
+
+}
 
 
+fun dd(sum: () -> Unit) {
+
+    sum()
 }
